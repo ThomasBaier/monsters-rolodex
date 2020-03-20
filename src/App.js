@@ -35,6 +35,7 @@ render() {
     monster.name.toLowerCase().includes(searchField.toLowerCase()))
   return(
     <div className="App">
+      <h1>Masters Rolodex</h1>
       <SearchBox
         handleChange={this.handleChange} 
         placeholder='Search Monster' 
